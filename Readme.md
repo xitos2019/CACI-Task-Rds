@@ -4,11 +4,13 @@ clone [repository](https://github.com/xitos2019/CACI-Task-Rds) which contains te
 
 * MySql Rds Instance
 * VPC (subnet for db and subnet for app)
-* Security group for VPV
+* Security group for VPC
 
 > Before applying below script please add db password in `dev.tfvars` file
 
 Run below command to fire up RDS Instance
+
+`terraform init`
 
 `terraform apply -var-file dev.tfvars`
 
