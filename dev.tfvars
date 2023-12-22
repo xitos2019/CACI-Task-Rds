@@ -22,5 +22,5 @@
   engine_version       = "5.7"
   instance_class       = "db.t2.medium" 
   username             = "db_user"
-  db_password             = "Rds2023abc"
+  db_password             = ""
  
